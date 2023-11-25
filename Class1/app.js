@@ -10,8 +10,7 @@
 
 // console.log(abc)
 // let abc="ahsan"
-// Output : Cannot access 'abc' before initialization
-
+//Output : Cannot access 'abc' before initialization  nn
 
 // console.log(abc)
 // const abc="ahsan"
@@ -28,13 +27,25 @@
 
 // Rest Parameter        --------------------------
 
-// function foo(a,b,...rest){
-// var num = 0 
-// for(var key in rest){
-//     num+= rest[key]
-//     // console.log(key)
+// function foo(a, b, ...rest) {
+//     let num = 0
+//     for (var key in rest) {
+//         num+=rest[key]
+//     }
+
+
+//     console.log(a+ b+num);
+
+
 // }
 
-// console.log(a,b,num)
+// foo(1, 2, 2, 3, 2, 1, 2, 3, 9)
+
+// Default Parameter-----------------------------------------
+
+
+// function deffun(a=5,b=5){
+// console.log(a,b);
 // }
-// foo(1,2,3,5,5,3,3,2,2,3) 
+
+// deffun(2)
