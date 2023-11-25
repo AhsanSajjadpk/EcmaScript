@@ -50,3 +50,11 @@
 
 // var a = (5==5? "yes":"No")
 // console.log(a)
+
+
+
+// let abc = ()=>{
+//     console.log("hello");
+// }
+// abc()
+
